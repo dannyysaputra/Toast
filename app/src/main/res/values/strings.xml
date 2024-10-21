@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Hello Toast</string>
+    <string name="button_label_toast">Toast</string>
+    <string name="count_initial_value">0</string>
+    <string name="button_switch_page">Switch page</string>
+    <string name="button_label_count">Counter</string>
+    <string name="text_header">Halaman ke-2</string>
+    <string name="button_label_browser">Browse Page</string>
+    <string name="button_camera">Access Camera</string>
+    <string name="button_maps">Ini rumah zahwan</string>
+    <string name="button_main">Kirim</string>
+    <string name="button_message_page">Message page</string>
+</resources>
