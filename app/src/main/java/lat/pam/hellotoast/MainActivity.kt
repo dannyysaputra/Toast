@@ -37,6 +37,8 @@ class MainActivity : AppCompatActivity() {
         // observe the live data, passing in this activity as the lifecycleowner
         model.currentName.observe(this, nameObserver)
 
+        mCount = model.currentName.value ?: 0
+
         buttonCountUp.setOnClickListener(View.OnClickListener {
             mCount++;
             if (mShowCount != null) {
